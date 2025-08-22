@@ -69,3 +69,10 @@ This project exposes HRMS operations as **MCP tools**, making them accessible to
 
 └── README.md # Project documentation
 
+## ⚙️ Setup & Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/atliq-hr-assist.git
+   cd atliq-hr-assist
+
