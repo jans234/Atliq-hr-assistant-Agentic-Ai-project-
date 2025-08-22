@@ -1,4 +1,4 @@
-AtliQ HR Assistant (MCP)
+# AtliQ HR Assistant (MCP)
 
 An AI-powered HR Assistant built with Model Context Protocol (MCP) to streamline HR operations such as employee management, leave requests, ticketing, meeting scheduling, and onboarding.
 
