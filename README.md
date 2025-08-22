@@ -1,69 +1,58 @@
 # AtliQ HR Assistant (MCP)
 
-An AI-powered HR Assistant built with Model Context Protocol (MCP) to streamline HR operations such as employee management, leave requests, ticketing, meeting scheduling, and onboarding.
-This project exposes HRMS operations as MCP tools, making them accessible to AI agents and assistants in a secure and structured way.
+An **AI-powered HR Assistant** built with **Model Context Protocol (MCP)** to streamline HR operations such as employee management, leave requests, ticketing, meeting scheduling, and onboarding.  
 
-# ✨ Features
-Employee Management
-# Add new employees
-Retrieve employee details
+This project exposes HRMS operations as **MCP tools**, making them accessible to AI agents and assistants in a secure and structured way.
 
-Leave Management
+---
 
-Check leave balance
+## ✨ Features
 
-Apply for leave
+- **Employee Management**
+  - Add new employees
+  - Retrieve employee details  
 
-Get leave history
+- **Leave Management**
+  - Check leave balance
+  - Apply for leave
+  - Get leave history  
 
-Ticketing System
+- **Ticketing System**
+  - Create tickets (e.g., laptop, ID card)
+  - Update ticket status
+  - List tickets by employee and status  
 
-Create tickets (e.g., laptop, ID card)
+- **Meeting Management**
+  - Schedule meetings
+  - Fetch meetings
+  - Cancel meetings  
 
-Update ticket status
+- **Email Integration**
+  - Send emails via Gmail SMTP  
 
-List tickets by employee and status
+- **Onboarding Workflow**
+  - Auto-generates onboarding steps:
+    - Add employee to HRMS
+    - Send welcome email
+    - Notify manager
+    - Raise equipment tickets
+    - Schedule intro meeting
+    - Retrieve leave details  
 
-Meeting Management
+- **Logging**
+  - All actions logged in `hrms.log` with timestamps  
 
-Schedule meetings
+---
 
-Fetch meetings
+## 🛠️ Tech Stack
 
-Cancel meetings
+- **Python 3.10+**
+- **FastMCP** – MCP server framework
+- **dotenv** – Load environment variables
+- **logging** – For monitoring and debugging
+- **Custom HRMS Modules** (`HRMS`, `utils`, `emails`)
 
-Email Integration
+---
 
-Send emails via Gmail SMTP
+## 📂 Project Structure
 
-Onboarding Workflow
-
-Auto-generates onboarding steps:
-
-Add employee to HRMS
-
-Send welcome email
-
-Notify manager
-
-Raise equipment tickets
-
-Schedule intro meeting
-
-Retrieve leave details
-
-Logging
-
-All actions logged in hrms.log with timestamps
-
-🛠️ Tech Stack
-
-Python 3.10+
-
-FastMCP – MCP server framework
-
-dotenv – Load environment variables
-
-logging – For monitoring and debugging
-
-Custom HRMS Modules (HRMS, utils, emails)
