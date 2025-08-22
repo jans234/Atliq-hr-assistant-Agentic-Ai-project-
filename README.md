@@ -5,7 +5,7 @@ This project exposes HRMS operations as MCP tools, making them accessible to AI 
 
 # ✨ Features
 Employee Management
-# . Add new employees
+# Add new employees
 Retrieve employee details
 
 Leave Management
