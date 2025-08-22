@@ -55,4 +55,11 @@ This project exposes HRMS operations as **MCP tools**, making them accessible to
 ---
 
 ## 📂 Project Structure
+├── HRMS/ # HRMS logic (Employee, Leave, Ticket, Meeting managers)
+├── utils.py # Helper for seeding services
+├── emails.py # EmailSender class for Gmail SMTP
+├── main.py # MCP server (this file)
+├── .env # Environment variables (email credentials)
+├── hrms.log # Log file (auto-created)
+└── README.md # Project documentation
 
