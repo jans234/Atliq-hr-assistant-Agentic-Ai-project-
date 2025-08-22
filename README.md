@@ -75,4 +75,10 @@ This project exposes HRMS operations as **MCP tools**, making them accessible to
    ```bash
    git clone https://github.com/your-username/atliq-hr-assist.git
    cd atliq-hr-assist
+2. **Set up environment variables in .env**
+   ```bash
+   CB_EMAIL=your-email@gmail.com
+   CB_EMAIL_PWD=your-app-password
+   
+
 
