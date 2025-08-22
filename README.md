@@ -4,7 +4,7 @@ An AI-powered HR Assistant built with Model Context Protocol (MCP) to streamline
 
 This project exposes HRMS operations as MCP tools, making them accessible to AI agents and assistants in a secure and structured way.
 
-✨ Features
+**✨ Features**
 
 Employee Management
 
